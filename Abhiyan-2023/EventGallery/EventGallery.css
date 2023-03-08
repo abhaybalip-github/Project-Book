@@ -1,0 +1,75 @@
+.event-box{
+    height: 42vh;
+    width: 30vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    box-shadow:0px 10px 10px 0px ;
+    transition: all 0.5s;
+    position: relative;
+}
+.event-img{
+    height: 40vh;
+    width: 26vh;
+    /* margin: 1vh 1vh 1vh 1vh; */
+    border: 1px solid red;
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    left:1vh;
+    top: 1vh;
+    z-index: 1;
+}
+.event-desc{
+    height: 40vh;
+    width: 25vh;
+    border: 1px solid blue;
+    border-radius: 10px;
+    /* margin: 1vh 2vh 1vh 1vh; */
+    display: inline-block;
+    transition: all 0.5s;
+    position: absolute;
+    top: 1vh;
+    right: 1vh;
+    visibility: hidden;
+    z-index: -1;
+}
+
+/* property for v card */
+.event-box-v{
+    height: 32vh;
+    width: 42vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow:0px 10px 10px 0px ;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.5s;
+    position: relative;
+}
+.event-img-v{
+    height: 28vh;
+    width: 40vh;
+    border: 1px solid red;
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    left: 1vh;
+    top: 1vh;
+    z-index: 1;
+}
+
+.event-desc-v{
+    height: 30vh;
+    width: 40vh;
+    border: 1px solid green;
+    border-radius: 10px;
+    display: inline-block;
+    transition: all 0.5s;
+    position: absolute;
+    bottom: 1vh;
+    left: 1vh;
+    visibility: hidden;
+    z-index: -1;
+}
