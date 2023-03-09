@@ -1,35 +1,23 @@
 
-// function for hover effect on event card
-
-function event_hover(event_box,event_desc){
-    event_box = document.getElementById(event_box)
+// function for hover effect
+function hover_event_card(event_blog,event_poster,event_desc){
+    event_blog = document.getElementById(event_blog)
     event_desc = document.getElementById(event_desc)
+    event_poster = document.getElementById(event_poster)
 
-    event_box.style.width = '55vh'
-
+    event_blog.style.width = '60vh';
+    event_poster.style.visibility = 'visible'
+    // event_poster.style.zIndex = '1'
     window.setTimeout(function(){event_desc.style.visibility = 'visible'},300)
 }
-function event_hover_out(event_box,event_desc){
-    event_box = document.getElementById(event_box)
+// function for de-hover effect
+function dehover_event_card(event_blog,event_poster,event_desc){
+    event_blog = document.getElementById(event_blog)
     event_desc = document.getElementById(event_desc)
+    event_poster = document.getElementById(event_poster)
 
-    event_desc.style.visibility = 'hidden'
-    event_box.style.width = '30vh'
-}
-
-// function for hover effect on v event card
-
-function event_hover_v(event_box,event_desc){
-    event_box = document.getElementById(event_box)
-    event_desc = document.getElementById(event_desc)
-
-    event_box.style.height = '62vh'
-    window.setTimeout(function(){event_desc.style.visibility = 'visible'},300)
-}
-function event_hover_out_v(event_box,event_desc){
-    event_box = document.getElementById(event_box)
-    event_desc = document.getElementById(event_desc)
-
-    event_box.style.height = '32vh'
+    event_blog.style.width = '30vh'
+    event_poster.style.visibility = 'hidden'
+    // event_poster.style.zIndex = '-1'
     event_desc.style.visibility = 'hidden'
 }
