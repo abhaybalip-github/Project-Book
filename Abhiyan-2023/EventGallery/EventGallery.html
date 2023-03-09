@@ -6,13 +6,26 @@
     </head>
     <body>
         
-        <!-- single event blog -->
-        <div id="event-blog" class="event-blog" onmouseover="hover_event_card('event-blog','event-poster','event-desc')" onmouseout="dehover_event_card('event-blog','event-poster','event-desc')">
+        <!-- vertical event blog -->
+        <div id="event-blog" class="event-blog" onmouseover="hover_event_card('event-blog','event-poster','event-desc')" onmouseleave="dehover_event_card('event-blog','event-poster','event-desc')">
             <img src="" 
                 alt="event-pic" id="event-pic" class="event-pic">
             <img src="" 
                 alt="event-poster" id="event-poster" class="event-poster">
             <div id="event-desc" class="event-desc">
+                This is description of event
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <!-- horizintal event blog -->
+        <div id="event-blog-h" class="event-blog-h" onmouseover="hover_event_card_h('event-blog-h','event-poster-h','event-desc-h')" onmouseleave="dehover_event_card_h('event-blog-h','event-poster-h','event-desc-h')">
+            <img src="" 
+                alt="event-pic-h" id="event-pic-h" class="event-pic-h">
+            <img src="" 
+                alt="event-poster-h" id="event-poster-h" class="event-poster-h">
+            <div id="event-desc-h" class="event-desc-h">
                 This is description of event
             </div>
         </div>

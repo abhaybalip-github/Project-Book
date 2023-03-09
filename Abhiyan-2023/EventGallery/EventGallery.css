@@ -1,3 +1,5 @@
+
+/* property for vertical event card */
 .event-blog{
     height: 40vh;
     width: 30vh;
@@ -39,6 +41,58 @@
     position: absolute;
     top: 1vh;
     right: 1vh;
+    z-index: 0;
+    
+    transition: all 0.7s;
+
+    visibility: hidden;
+}
+
+
+/* property for horizontal event card */
+.event-blog-h{
+    height: 30vh;
+    width: 40vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgrey;
+    box-shadow: 0px 10px 10px 0px black;
+    text-align: center;
+
+    position: relative;
+
+    transition: all 0.7s;
+}
+.event-pic-h,.event-poster-h{
+    height: 28vh;
+    width: 38vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: cadetblue;
+
+    position: absolute;
+    top: 1vh;
+    left: 1vh;
+    z-index: 0;
+
+    transition: all 0.7s;
+}
+
+.event-poster-h{
+    background-color: bisque;
+    visibility: hidden;
+}
+
+.event-desc-h{
+    height: 28vh;
+    width: 38vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: azure;
+
+    position: absolute;
+    bottom: 1vh;
+    left: 1vh;
     z-index: 0;
     
     transition: all 0.7s;
