@@ -28,6 +28,8 @@ function hover_event_card_h(card_no){
     event_desc = document.getElementsByClassName('event-desc-h')
     event_poster = document.getElementsByClassName('event-poster-h')
 
+    window.clearTimeout()
+
     event_blog[card_no].style.height = '60vh'
     event_poster[card_no].style.visibility = 'visible'
     window.setTimeout(function(){event_desc[card_no].style.visibility = 'visible'},300)
@@ -38,6 +40,8 @@ function dehover_event_card_h(card_no){
     event_blog = document.getElementsByClassName('event-blog-h')
     event_desc = document.getElementsByClassName('event-desc-h')
     event_poster = document.getElementsByClassName('event-poster-h')
+
+    window.clearTimeout()
 
     event_blog[card_no].style.height = '30vh'
     event_poster[card_no].style.visibility = 'hidden'
