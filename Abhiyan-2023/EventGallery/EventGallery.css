@@ -23,12 +23,13 @@
     position: absolute;
     top: 1vh;
     left: 1vh;
-    z-index: 0;
+    z-index: 1;
 
     transition: all 0.7s;
 }
 .event-poster{
     background-color: bisque;
+    z-index: 0;
     visibility: hidden;
 }
 .event-desc{
@@ -73,13 +74,14 @@
     position: absolute;
     top: 1vh;
     left: 1vh;
-    z-index: 0;
+    z-index: 1;
 
     transition: all 0.7s;
 }
 
 .event-poster-h{
     background-color: bisque;
+    z-index: 0;
     visibility: hidden;
 }
 
