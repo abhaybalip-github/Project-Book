@@ -8,6 +8,7 @@
     background-color: lightgrey;
     box-shadow: 0px 10px 10px 0px black;
     text-align: center;
+    overflow: hidden;
 
     position: relative;
 
