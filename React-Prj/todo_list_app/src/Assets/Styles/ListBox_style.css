@@ -7,9 +7,10 @@
     border-radius: 10px;
 
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    /* transform: translate(-50%,-50%); */
+    transform: translateX(-50%);
 }
 
 .box-menu{
@@ -69,4 +70,11 @@
     border: 1px solid black;
     border-radius: 10px;
 
+}
+
+.list-reset{
+    width: 25%;
+    margin-left: 5vw;
+    border: 1px solid black;
+    border-radius: 10px;
 }
